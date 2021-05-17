@@ -1,0 +1,9 @@
+germline	0.25
+clone1	0.3
+clone2	0.1125
+clone3	0.075
+clone4	0.075
+clone5	0.1275
+clone6	0.0375
+clone7	0.0075
+clone8	0.015

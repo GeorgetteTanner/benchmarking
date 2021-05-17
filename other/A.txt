@@ -1,0 +1,8 @@
+clone1	0.4
+clone2	0.15
+clone3	0.1
+clone4	0.1
+clone5	0.17
+clone6	0.05
+clone7	0.01
+clone8	0.02
