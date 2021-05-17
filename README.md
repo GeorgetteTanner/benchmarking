@@ -1,11 +1,11 @@
 ## Info
-This repository contains information and variant profiles for samples used to benchmark somatic genome analysis methods in Tanner et al 2021.
+This repository contains information and variant profiles for samples used to benchmark somatic genome analysis methods in Tanner et al.
 
-Corresponding sequencing datasets are available at https://www.ebi.ac.uk/ena/browser/view/PRJEB28319.
+Some files are only available in the accompanying GitHub release due to their size.
 
 Note that eg. v1r1 corresponds to s1r1 in Tanner et al.
 
-Some files are only available in the accompanying GitHub release due to their size.
+Corresponding sequencing datasets are available at https://www.ebi.ac.uk/ena/browser/view/PRJEB28319.
 
 Please email medgnt@leeds.ac.uk for any queries or assistance with using the datasets.
 
