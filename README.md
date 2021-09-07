@@ -27,6 +27,8 @@ v2r1Dcnv.txt - Copy number profile for bulk sample with branched topology and 5 
 Bulk CNV files provide the absolute copy number profiles for each sample, which includes the effects of germline CNVs. To generate somatic CNV profiles (which will be identical for all purities for the same sample), the ratio of 100% pure tumour bulk sample copy numbers to germline copy numbers is calculated for each allele:
 {TUMOUR}Acnv_d_{TUMOUR}germlinecnv.bed 
 
+VCF files available in the Release1 data:
+
 {TUMOUR}A.vcf - Point mutations profile for bulk sample A (100% purity) for each tumour. 
 
 {TUMOUR}B.vcf -	Point mutations profile for bulk sample B (75% purity) for each tumour.
@@ -40,6 +42,7 @@ These contain both germline and somatic mutations. The {TUMOUR}_ccfs.txt file or
 {TUMOUR}_ccfs.txt - The cancer cell fraction of every somatic point variant in each tumour.
 
 v2r1_ccfs_branched.txt - The cancer cell fraction of every somatic point variant in the branched topology 5 clone sample for tumour s2r1.
+
 v2r1_ccfs_linear.txt - The cancer cell fraction of every somatic point variant in the linear topology 3 clone sample for tumour s2r1.
 
 ## Individual clones (including germline "clone"):
@@ -55,9 +58,7 @@ Clone files include information on mutations that occured in that clone as well 
 
 ## Other:
 
-A.txt - Realtive proportions of reads from each clone that were combined to form bulk sample A.
-
-B.txt -	Realtive proportions of reads from each clone that were combined to form bulk sample B.
+{SAMPLE}.txt - Realtive proportions of reads from each clone that were combined to form bulk sample {SAMPLE}.
 
 ### HeteroGenesis inputs
 
