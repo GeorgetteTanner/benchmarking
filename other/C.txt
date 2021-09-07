@@ -1,0 +1,9 @@
+clone1	0.5
+clone2	0.05
+clone3	0
+clone4	0
+clone5	0
+clone6	0
+clone7	0
+clone8	0.2
+germline	0.25
