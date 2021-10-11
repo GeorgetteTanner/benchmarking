@@ -65,3 +65,6 @@ Clone files include information on mutations that occured in that clone as well 
 {TUMOUR}.json - Input for HeteroGenesis used to simulate tumour.
 
 
+## code:
+
+cnvkit_modifications - To use these files they should be substituted in for equivaent files in the the CNVkit library.
