@@ -1,0 +1,91 @@
+#Bulk samples were created by merging a proportion of reads equivalent to a clone's frequency in the tumour without taking ploidy into account.
+
+TUMOUR="v1r1 v1r2 v1r3 v2r1 v2r2 v2r3 v3r1 v3r2 v3r3"
+r=1
+r=2
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 297600000 > ${tu}_A_250_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 111600000 >>  ${tu}_A_250_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 74400000 >>  ${tu}_A_250_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 74400000 >>  ${tu}_A_250_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 126500000 >>  ${tu}_A_250_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 37200000 >>  ${tu}_A_250_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 7400000 >>  ${tu}_A_250_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 14900000 >>  ${tu}_A_250_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 223200000 > ${tu}_B_250_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 83700000 >>  ${tu}_B_250_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 55800000 >>  ${tu}_B_250_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 55800000 >>  ${tu}_B_250_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 94900000 >>  ${tu}_B_250_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 27900000 >>  ${tu}_B_250_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 5600000 >>  ${tu}_B_250_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 11200000 >>  ${tu}_B_250_${r}.fq ; \
+head ${tu}germline_100000000_1_${r}.fq -n 186000000 >>  ${tu}_B_250_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 119000000 > ${tu}_A_100_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 44600000 >>  ${tu}_A_100_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 29800000 >>  ${tu}_A_100_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 29800000 >>  ${tu}_A_100_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 50600000 >>  ${tu}_A_100_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 14900000 >>  ${tu}_A_100_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 3000000 >>  ${tu}_A_100_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 6000000 >>  ${tu}_A_100_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 89300000 > ${tu}_B_100_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 33500000 >>  ${tu}_B_100_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 22300000 >>  ${tu}_B_100_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 22300000 >>  ${tu}_B_100_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 38000000 >>  ${tu}_B_100_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 11200000 >>  ${tu}_B_100_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 2200000 >>  ${tu}_B_100_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 4500000 >>  ${tu}_B_100_${r}.fq ; \
+head ${tu}germline_100000000_1_${r}.fq -n 74400000 >>  ${tu}_B_100_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 71400000 > ${tu}_A_60_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 26800000 >>  ${tu}_A_60_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 17900000 >>  ${tu}_A_60_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 17900000 >>  ${tu}_A_60_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 30400000 >>  ${tu}_A_60_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 8900000 >>  ${tu}_A_60_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 1800000 >>  ${tu}_A_60_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 3600000 >>  ${tu}_A_60_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 53600000 > ${tu}_B_60_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 20100000 >>  ${tu}_B_60_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 13400000 >>  ${tu}_B_60_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 13400000 >>  ${tu}_B_60_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 22800000 >>  ${tu}_B_60_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 6700000 >>  ${tu}_B_60_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 1300000 >>  ${tu}_B_60_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 2700000 >>  ${tu}_B_60_${r}.fq ; \
+head ${tu}germline_100000000_1_${r}.fq -n 44600000 >>  ${tu}_B_60_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 35700000 > ${tu}_A_30_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 13400000 >>  ${tu}_A_30_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 9000000 >>  ${tu}_A_30_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 9000000 >>  ${tu}_A_30_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 15200000 >>  ${tu}_A_30_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 4500000 >>  ${tu}_A_30_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 900000 >>  ${tu}_A_30_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 1800000 >>  ${tu}_A_30_${r}.fq ; done
+
+for tu in $TUMOUR; do \
+head ${tu}clone1_100000000_1_${r}.fq -n 26800000 > ${tu}_B_30_${r}.fq ; \
+head ${tu}clone2_100000000_1_${r}.fq -n 10100000 >>  ${tu}_B_30_${r}.fq ; \
+head ${tu}clone3_100000000_1_${r}.fq -n 6700000 >>  ${tu}_B_30_${r}.fq ; \
+head ${tu}clone4_100000000_1_${r}.fq -n 6700000 >>  ${tu}_B_30_${r}.fq ; \
+head ${tu}clone5_100000000_1_${r}.fq -n 11400000 >>  ${tu}_B_30_${r}.fq ;  \
+head ${tu}clone6_100000000_1_${r}.fq -n 3400000 >>  ${tu}_B_30_${r}.fq ; \
+head ${tu}clone7_100000000_1_${r}.fq -n 700000 >>  ${tu}_B_30_${r}.fq ; \
+head ${tu}clone8_100000000_1_${r}.fq -n 1400000 >>  ${tu}_B_30_${r}.fq ; \
+head ${tu}germline_100000000_1_${r}.fq -n 22300000 >>  ${tu}_B_30_${r}.fq ; done
+
+for tu in $TUMOUR; do tail ${tu}germline_100000000_1_${r}.fq -n 179000000 >  ${tu}_normal_60_${r}.fq ; done
